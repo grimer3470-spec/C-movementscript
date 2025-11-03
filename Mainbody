@@ -1,0 +1,23 @@
+using System;
+
+namespace GreetingApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Prompt the user to enter their name
+            Console.Write("Please enter your name: ");
+
+            // Read the user's input
+            string userName = Console.ReadLine();
+
+            // Display a greeting message
+            Console.WriteLine($"Hello, {userName}! Welcome to the Open Collab Project. Hope you stay!");
+
+            // Keep the console window open until a key is pressed
+            Console.WriteLine("\nPress any key to exit.");
+            Console.ReadKey();
+        }
+    }
+}
